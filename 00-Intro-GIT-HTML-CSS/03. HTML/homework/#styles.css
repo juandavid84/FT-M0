@@ -1,0 +1,41 @@
+#styles.css
+.red {
+    color: red;
+    margin: 10px;
+  }
+  header{
+    background: black;
+  }
+  h1{
+    font-size: 20 px;
+  }
+
+  div {
+    margin: 50px;
+    border: black 1px solid;
+    /*display: inline;*/
+  }
+  footer{
+    background: green;
+  }
+
+  img{
+    width:100 px;
+    display:inline;
+    text-align:center;
+    margin: 0 auto;
+  }
+
+  body{
+    background-color: mediumturquoise;
+  }
+  /*.centrado {
+    width: 100px;
+    margin: 0 auto;
+  }*/
+  
+  /*Scrollbar*/
+  .centrado {
+    max-width: 1000px;
+    margin: 0 auto;
+  }

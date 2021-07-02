@@ -7,7 +7,9 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
-
+    list-style: circle;
+    display: block;
+    text-align:center;
 }
 
 
@@ -15,24 +17,98 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Acá va tu código */
 
+#Ejercicio2 {
+    display:none;
+      }
 
 
 /* Ejercicio 3: */
 
 /* Acá va tu código */
 
-
+image.ejercicioTres{
+    position: relative;
+    top: 100 px;
+    left: 200 px;
+    }
+  
 
 /* Ejercicio 4: */
 
 /* Acá va tu código */
-
+ejercicioCuatro{
+    position: fixed;
+    top: 0 px;
+    left: 0 px;
+  }
 
 
 /* Ejercicio 5: */
 
 /* Acá va tu código */
 
-
+ejercicioCinco{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+  .span{
+    display: flexbox;
+    align-items: center;
+    flex-direction: row;
+  }
+  #SoyHenry{
+    display: flexbox;
+    align-items: center;
+    flex-direction: row;
+  }
+  .imagen{
+    display: flexbox;
+    align-items: center;
+    flex-direction: row;
+  }
 
 /* Ejercicio 6. */
+.span{
+    display: flexbox;
+    align-items: center;
+    flex-direction: row;
+  }
+  #SoyHenry{
+    display: flexbox;
+    align-items: center;
+    flex-direction: column;
+  }
+  .imagen{
+    display: flexbox;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+  
+  ejercicioSiete{
+    display: flexbox;
+  }
+  elementoUno{
+    display: flexbox;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+  
+  elementoDos{
+    display: flexbox;
+    flex-direction:column-reverse;
+    align-items: center;
+  }
+  
+  elementoTres{
+    display: flexbox;
+    flex-direction:column;
+    justify-content: center;
+  }
+  
+  elementoCuatro{
+    display: flexbox;
+    flex-direction:row;
+    justify-content: center;
+  }
